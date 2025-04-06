@@ -10,7 +10,7 @@ There are several design patterns and can be categorised as
    *  Prototype
 
 2. Structural Design Pattern
-   *   Adaoptor
+   *   Adaptor
    *  Bridge
    *  Composite
    *   Decorator
