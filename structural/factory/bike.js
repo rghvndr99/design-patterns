@@ -1,10 +1,8 @@
-class Bike {
+export default class Bike {
     constructor(name){
         this.name=name;
     }
-     display() {
-        console.log(`you are driving ${this.name} Bike`)
+     print() {
+        console.log(`your bike is of ${this.name} brand`);
      }
 }
-
-module.defaults=  Bike;

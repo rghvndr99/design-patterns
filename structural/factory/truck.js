@@ -1,10 +1,8 @@
-class Truck {
+export default class Truck {
     constructor(name){
         this.name=name;
     }
      display() {
-        console.log(`you are driving ${this.name} truck`)
+        console.log(` ${this.name} is of heavy vehicle type`);
      }
 }
-
-module.defaults=  Truck;

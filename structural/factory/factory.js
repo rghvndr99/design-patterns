@@ -2,18 +2,16 @@ const Car = require('./car');
 const Truck = require('./truck');
 const Bike = require('./bike');
 
-console.log(Car);
-
 class VehicleFactory {
    static createVehicle(type, name) {
      if (type== 'car') {
-        return new Car(name);
+        return new Car.default(name);
      }
      else if (type== 'bike') {
-        return new Bike(name);
+        return new Bike.default(name);
      }
      else if (type== 'truck') {
-        return new Truck(name);
+        return new Truck.default(name);
      }
    }
 }

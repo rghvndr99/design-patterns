@@ -2,7 +2,7 @@ export default class Car {
     constructor(name){
         this.name=name;
     }
-     display() {
+     show() {
         console.log(`you are driving ${this.name} car`)
      }
 }
